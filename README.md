@@ -41,9 +41,8 @@ Key goals:
 
 Add your dashboard image here:
 
-<p align="center">
-  <img width="1455" height="816" alt="Churn Dashboard" src="https://github.com/user-attachments/assets/060c47ff-7eb1-40ef-b8bf-f60a426a18c2" />
-</p>
+<img width="1453" height="800" alt="image" src="https://github.com/user-attachments/assets/c0bcd522-1ee6-4889-8740-8068a3733561" />
+
 
 
 ## Key Insights (Summary)
