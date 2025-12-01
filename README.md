@@ -41,7 +41,8 @@ Key goals:
 
 Add your dashboard image here:
 
-![Telecom Churn Dashboard](Images/churn_dashboard.png)
+<img width="1455" height="816" alt="image" src="https://github.com/user-attachments/assets/44b33d0b-2a4a-4663-b0bf-7da579ffd440" />
+
 
 ## Key Insights (Summary)
 
@@ -56,38 +57,6 @@ Add your dashboard image here:
   - Total churn count for females (1,111) is higher than for males (621).
 
 Use these patterns to target high-risk cohorts with retention campaigns and product offers.
-
-## Project Structure
-
-Telecom-Churn-Analysis/
-├── Data/           # Raw and processed data files (CSV/Excel)
-├── SQL/            # ETL and analytical SQL scripts
-├── PowerBI/        # PBIX files and Power BI artifacts
-├── Images/         # Dashboard snapshots and visuals
-└── README.md       # Project documentation
-
-## Metrics & KPIs
-
-- Churn Rate — Percentage of customers who discontinued service
-- Retention Rate — Percentage of customers retained over a period
-- Customer Lifetime Value (CLV) — Expected revenue contribution over a customer's tenure
-- Subscriber Growth — New joiners vs churn trend
-
-## How to run / reproduce
-
-1. Prepare source files
-   - Place raw CSV/Excel files in the Data/ directory.
-2. Run SQL ETL scripts
-   - Use the scripts in SQL/ to create staging and production schemas, and to load/cleanse data.
-   - Execute analytical view scripts to expose reporting tables for Power BI.
-3. Open Power BI report
-   - Open the PBIX files in PowerBI/ and connect to the SQL Server database or exported data files.
-4. Refresh and validate
-   - Validate DAX measures (Churn Rate, Retention Rate, CLV) and verify visuals using sample filters.
-
-Notes:
-- If using a remote SQL Server, ensure credentials and network access (firewall, gateway) are configured.
-- For scheduled refresh, consider SQL Server Agent for ETL and Power BI Gateway for dataset refresh.
 
 ## Recommendations & Business Value
 
@@ -104,14 +73,4 @@ This analysis supports:
 - Automate ETL scheduling with SQL Server Agent and enable Power BI Gateway refreshes.
 - Add real-time or near-real-time monitoring for churn signals.
 
-## Author
-
-Your Name  
-Data Analyst / Business Intelligence Enthusiast  
-Email: your.email@example.com  
-LinkedIn: https://www.linkedin.com/in/yourprofile
-
----
-
-If you find this repository useful, please star the project on GitHub!
 ```
